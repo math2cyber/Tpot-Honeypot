@@ -89,10 +89,32 @@ To keep my environment safe, I decided to install a honeypot on a Debian VM on w
 <img src="https://imgur.com/30ojWok.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-<h2>Summary of the Key Findings from the T-Pot Honeypot</h2>
+<h2>Discussion of the Key Findings from the T-Pot Honeypot</h2>
 - Total number of attacks on the honeypots amounted to 121,346 for 5 days.
+<br>
+<br>
 - Top honeypots attacked were Ddospot (DDOS attacks), Dionaea (network attacks with malware), Cowrie (brute force attacks with SSH and Telnet), and Honeytrap (TCP & UDP service attacks).
-- 
+<br>
+<br>
+- Top ports attacked were port 123 (NTP), port 21 (FTP), port 443 (HTTPS), port 53 (DNS), and port 22 (SSH).
+<br>
+<br>
+- Top countries attacking the honeypots are the United States, Argentina, Brazil, China, and India.
+<br>
+<br>
+- Top Suricata alerts are attempting denial of service and detection of a network scan.
+<br>
+<br>
+- Top attempted usernames are root, admin, user, sa (sql database admin), guest, and test.
+<br>
+<br>
+- Top attempted passwords letmein, jordan, 1234, admin, 123456, master 160887, and 1qaz@WSX.
+<br>
+<br>
+This information can be used to harden and defend an organization's network.  I suspected most of the attacks would be on the network.  It seemed as though the attackers tried to penetrate the network.  There were malicious files dropped onto the honeypots.  There is a list of the top 10 malware samples dropped.  I could take those samples and upload them to a sandbox to analyze.  The analysis of the malware could be another project idea for the future.
+<br>
+<br>
+If you have any more questions about the data, feel free to email me at rdr_employment@proton.me.
 <!--
  ```diff
 - text in red
