@@ -46,32 +46,53 @@ To keep my environment safe, I decided to install a honeypot on a Debian VM on w
 <br />
 <br />
 
-<h2>IP Reputation Check</h2>
-VirusTotal Risk Score: 0/87 vendors flagged IP as malicious.  The IP is clean.
 <p align="center">
-Hybrid Analysis Sandbox <br/>
-<img src="https://imgur.com/EXz8vfD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />  
-abuseIPDB Risk Score: IP address not found in database. The IP is clean.
-<p align="center">
-Hybrid Analysis Sandbox <br/>
-<img src="https://imgur.com/nFzZnaP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />  
-
-<h2>Declaration</h2>
-This is a true positive because VirusTotal verified the attachment was malicious and the emails were delivered to the user’s inbox.
-
-<h2>Recommendation(s)</h2>
-I recommended the messaging team purge the emails from the user’s inbox and block the sender’s email address.
-<img src="https://imgur.com/3XPwVF9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<p align="center">
-Proofpoint Alert: <br/>
-<img src="https://imgur.com/9fT3hBU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<img src="https://imgur.com/HscNIdy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
+<p align="center">
+<br/>
+<img src="https://imgur.com/vzSJpJJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<p align="center">
+<br/>
+<img src="https://imgur.com/aYiHelF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+<p align="center">
+<br/>
+<img src="https://imgur.com/J5Ryyji.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<p align="center">
+<br/>
+<img src="https://imgur.com/3EcCsPK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<p align="center">
+<br/>
+<img src="https://imgur.com/vhApfT5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+<p align="center">
+<br/>
+<img src="https://imgur.com/lPbjelK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+<p align="center">
+<br/>
+<img src="https://imgur.com/30ojWok.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+<h2>Summary of the Key Findings from the T-Pot Honeypot</h2>
+- Total number of attacks on the honeypots amounted to 121,346 for 5 days.
+- Top honeypots attacked were Ddospot (DDOS attacks), Dionaea (network attacks with malware), Cowrie (brute force attacks with SSH and Telnet), and Honeytrap (TCP & UDP service attacks).
+- 
 <!--
  ```diff
 - text in red
