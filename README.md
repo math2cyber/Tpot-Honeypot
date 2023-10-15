@@ -114,7 +114,7 @@ To keep my environment safe, I decided to install a honeypot on a Debian VM on w
 This information can be used to harden and defend an organization's network.  I suspected most of the attacks would be on the network.  It seemed as though the attackers tried to penetrate the network.  There were malicious files dropped onto the honeypots.  There is a list of the top 10 malware samples dropped.  I could take those samples and upload them to a sandbox to analyze.  The analysis of the malware could be another project idea for the future.
 <br>
 <br>
-If you have any more questions about the data, feel free to email me at rdr_employment@proton.me.
+If you have any more questions about the data, feel free to email me at robert.d.russ@proton.me.
 <!--
  ```diff
 - text in red
